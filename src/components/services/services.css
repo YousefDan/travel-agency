@@ -1,0 +1,44 @@
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service {
+  background: var(--bg-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  width: 32%;
+  margin-bottom: 2rem;
+  border: 0.2rem solid black;
+}
+.service:hover {
+  border: var(--custom-border);
+}
+.service i {
+  font-size: 5rem;
+  color: var(--blue-color);
+  margin-bottom: 2rem;
+}
+.service h3 {
+  font-size: 2rem;
+  color: white;
+}
+.service p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+}
+
+@media screen and (max-width: 920px) {
+  .service {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 620px) {
+    .service {
+      width: 100%;
+    }
+  }

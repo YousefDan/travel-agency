@@ -8,9 +8,9 @@
 }
 :root {
   --blue-color: #29d9d5;
-  --dark-color: #111;
+  --dark-color: #393e46;
   --light-color: #aaa;
-  --bg-color: #222;
+  --bg-color: #222831;
   --balck-bg: rgba(17, 17, 17, 0.7);
   --custom-border: 0.2rem solid var(--blue-color);
 }

@@ -1,0 +1,66 @@
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box-container .box {
+  width: 23%;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: var(--bg-color);
+  margin-bottom: 2rem;
+}
+.box div {
+  height: 20rem;
+  overflow: hidden;
+  width: 100%;
+}
+.box div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box:hover img {
+  transform: scale(1.1);
+}
+.box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.box .content h3 {
+  font-size: 2rem;
+  color: white;
+}
+.box .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+}
+.box .content a {
+  font-size: 1.7rem;
+  color: var(--blue-color);
+}
+.box .content a i {
+  padding-left: 0.5rem;
+}
+.box .content a:hover i {
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .box-container .box {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box-container .box {
+    width: 44%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .box-container .box {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.intro {
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: 90%;
+    background: url("../../images/home-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+}
+.intro-content {
+    text-align: center;
+}
+.intro-content span {
+    font-weight: bold;
+    font-size: 4vw;
+    display: block;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem white;
+}
+.intro-content h3 {
+    font-size: 6vw;
+    color: white;
+}
+.intro-content p {
+    max-width: 60rem;
+    margin:1rem auto;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+}
