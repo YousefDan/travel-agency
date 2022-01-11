@@ -1,13 +1,45 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.2s linear;
+}
+:root {
+  --blue-color: #29d9d5;
+  --dark-color: #111;
+  --light-color: #aaa;
+  --bg-color: #222;
+  --balck-bg: rgba(17, 17, 17, 0.7);
+  --custom-border: 0.2rem solid var(--blue-color);
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--dark-color);
+  overflow-x: hidden;
+}
+section {
+  padding: 3rem 9%;
+}
+.book-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  color: var(--blue-color);
+  border: var(--custom-border);
+  cursor: pointer;
+  background: none;
+  border-radius: 5rem;
+}
+.book-btn:hover {
+  background: var(--blue-color);
+  color: var(--dark-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
