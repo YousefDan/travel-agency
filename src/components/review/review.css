@@ -1,0 +1,77 @@
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.review-content {
+  flex: 1;
+  text-align: center;
+}
+.review-content span {
+  font-size: 2rem;
+  color: var(--blue-color);
+}
+.review-content h3 {
+  font-size: 3rem;
+  color: var(--blue-color);
+}
+.review-content p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  line-height: 2;
+}
+.review-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  flex: 1;
+}
+.review-box {
+  width: 47%;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: var(--bg-color);
+  border: 1px solid transparent;
+}
+.review-box:hover {
+  border: 1px solid var(--blue-color);
+}
+.review-box p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  line-height: 2;
+  color: var(--light-color);
+}
+.review-box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.review-box .user img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.user .user-info h3 {
+  font-size: 1.7rem;
+  color: white;
+}
+.user .user-info span {
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .review {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 620px) {
+  .review-box {
+    width: 100%;
+  }
+}

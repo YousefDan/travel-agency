@@ -2,9 +2,10 @@ import { destinationData } from "../../dummyData";
 import Heading from "../Heading";
 import "./destination.css";
 
+
 const Destination = () => {
   return (
-    <section className="destination" id="destination">
+    <section className="destination" id="destination" >
       <Heading title="Our Destination" subTitle="Make Your Destination" />
       <div className="box-container">
         {destinationData.map((item) => (

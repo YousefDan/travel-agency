@@ -3,7 +3,7 @@ import "./intro.css";
 const Intro = () => {
   return (
     <section className="intro">
-      <div className="intro-content">
+      <div data-aos="fade-up" className="intro-content">
         <span>Follow Us</span>
         <h3>To The Unknown</h3>
         <p>

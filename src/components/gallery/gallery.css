@@ -1,0 +1,22 @@
+.gallery-container {
+    columns: 3 25rem;
+    column-gap: 1.5rem;
+}
+.gallery-box {
+    margin-bottom: 1rem;
+    break-inside: avoid;
+}
+.gallery-box img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.gallery-box span {
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+.gallery-box h3 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 0.5rem;
+}

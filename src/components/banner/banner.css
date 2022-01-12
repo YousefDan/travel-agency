@@ -1,0 +1,24 @@
+.banner {
+    background: linear-gradient(var(--balck-bg),var(--balck-bg)) , url(../../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+   padding: 3rem .5rem;
+   background-attachment: fixed;
+   text-align: center;
+}
+.banner-content span {
+    font-size: 2rem;
+    color: var(--blue-color);
+}
+.banner-content h3 {
+    font-size: 4rem;
+    color: white;
+    margin-top: 1rem;
+}
+.banner-content p {
+    width: 60%;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+}

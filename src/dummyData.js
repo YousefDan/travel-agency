@@ -64,6 +64,88 @@ export const serviceData = [
         icon: "fas fa-headset",
         title:"24/7 Support"
     },
+];
+export const galleryData = [
+    {
+        id:1,
+        img:"images/gallery-img-1.jpg",
+        place:"Iceland",
+    },
+    {
+        id:2,
+        img:"images/gallery-img-2.jpg",
+        place:"Greenland",
+    },
+    {
+        id:3,
+        img:"images/gallery-img-3.jpg",
+        place:"Alaska",
+    },
+    {
+        id:4,
+        img:"images/gallery-img-4.jpg",
+        place:"Thailand",
+    },
+    {
+        id:5,
+        img:"images/gallery-img-5.jpg",
+        place:"Brazil",
+    },
+    {
+        id:6,
+        img:"images/gallery-img-6.jpg",
+        place:"Maldive",
+    },
+    {
+        id:7,
+        img:"images/gallery-img-7.jpg",
+        place:"Iceland",
+    },
+    {
+        id:8,
+        img:"images/gallery-img-8.jpg",
+        place:"Alaska",
+    },
+    {
+        id:9,
+        img:"images/gallery-img-9.jpg",
+        place:"Maldive",
+    },
+];
 
-
-]
+export const reviewData = [
+    {
+        id:1,
+        img: "images/pic-1.png",
+        title:"Designer"
+    },
+    {
+        id:2,
+        img: "images/pic-2.png",
+        title:"Content Producer"
+    },
+    {
+        id:3,
+        img: "images/pic-3.png",
+        title:"Database Expert"
+    },
+    {
+        id:4,
+        img: "images/pic-4.png",
+        title:"Developer"
+    },
+];
+export const blogsData = [
+    {
+        id:1,
+        img: "images/blog-1.jpg",
+    },
+    {
+        id:2,
+        img: "images/blog-2.jpg",
+    },
+    {
+        id:3,
+        img: "images/blog-3.jpg",
+    },
+];
